@@ -1,15 +1,11 @@
-// Androzon
-this["Androzon"] = {
-    name: "Androzon",
-    version: "1.0.0",
+Lampa.Plugin.add("androzon",{
+    name: 'Androzon',
+    version: '1.0.0',
     
-    search: function(text) {
-        return new Promise(function(resolve){
-            resolve([{
-                title: "Androzon: " + text,
-                description: "РАБОТАЕТ!",
-                type: "movie"
-            }]);
-        });
+    search: function(text){
+        return Promise.resolve([{
+            title: 'Ура! ' + text,
+            type: 'movie'
+        }]);
     }
-};
+});
