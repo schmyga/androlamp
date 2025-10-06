@@ -1,7 +1,9 @@
 // Androzon Plugin
 var plugin = {
     name: 'Androzon',
-    version: '6.0',
+    version: '6.1',
+    component: true,
+    icon: 'https://raw.githubusercontent.com/lampa-player/lampa/master/src/img/icon.png',
     
     // ВКЛЮЧАЕМ компонент для кнопки
     component: true,
