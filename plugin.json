@@ -1,0 +1,7 @@
+{
+    "name": "Androzon",
+    "version": "1.0.0",
+    "url": "https://cdn.jsdelivr.net/gh/schmyga/androlamp@main/plugin.js",
+    "description": "Androzon Search Plugin",
+    "component": false
+}
